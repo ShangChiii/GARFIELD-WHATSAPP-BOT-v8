@@ -1807,7 +1807,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'Follow Us ℹ️ ',
+                                    displayText: 'Follow Us',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -2078,15 +2078,7 @@ break
                 GarfieldNeural.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption:'```Title :``` *' + media.title +'*\n```File Size :``` *' + media.filesizeF + '*\n```URL :``` *' + isUrl(text) + '*\n ```Quality  :``` *480p*\n' }, { quoted: m })
             }
             break
-            // Hi  I m
-// ＮＯＩＺ Ξ
-// I am 16 years old developer...
-// From Sri Lanka
-// I am a Learning. 
-// Not more..
-// Also I am Student
-// Follow My Facebook - https://www.facebook.com/zenoixnoize
-case 'ytmp41080': {
+            case 'ytmp41080': {
                 let { tharinduyt } = require('./lib/ytmp4')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`)
                 let quality = args[1] ? args[1] : '1080p'
@@ -3914,7 +3906,7 @@ case 'neural' :
 ┃╠  ${global.emoji01} report [bug]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3978,7 +3970,7 @@ break
 ┃╠  ${global.emoji01} delvote
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4008,7 +4000,7 @@ break
 ┃╠  ${global.emoji01} sell [option]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4081,7 +4073,7 @@ break
 ┃╠  ${global.emoji01} suitpvp [tag]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4124,7 +4116,7 @@ break
 ┃╠  ${global.emoji01} delvote
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4171,7 +4163,7 @@ break
 ┃╠  ${global.emoji01} googledrive (URL)
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4224,7 +4216,7 @@ break
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©
 `,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4250,7 +4242,7 @@ break
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©
 `,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4298,7 +4290,7 @@ break
 ┃╠  ${global.emoji01} cringe
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4350,7 +4342,7 @@ break
 ┃╠  ${global.emoji01} gluetext [Text]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4385,7 +4377,7 @@ break
 ┃╠  ${global.emoji01} dbinary [reply Text]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4414,7 +4406,7 @@ break
 ┃╠  ${global.emoji01} delmsg
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4439,7 +4431,7 @@ break
 ┃╠  ${global.emoji01} leave
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4471,7 +4463,7 @@ break
 ┃╠  ${global.emoji01} squirrel [reply aud]
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4522,7 +4514,7 @@ break
 ┃╠  ${global.emoji01} shio (Text)
 ┃╚═════════════ 
 ┗━━「 User ${pushname}  ${global.emoji01} 」━©`,
-                    footer: `${global.botname}`,
+                    footer: `${global.footer}`,
                     buttons: buttons,
                     headerType: 4
                 }
